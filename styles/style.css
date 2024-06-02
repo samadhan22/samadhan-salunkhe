@@ -41,46 +41,6 @@ body{
 }
 
 
-/* setting background-color */
-
-.m-blue {
-    color: #2857a4;
-}
-
-.mb-blue {
-    background-color: #2857a4;
-}
-
-.mb-orange {
-    background-color: #ec4d1c;
-}
-
-.mb-teal {
-    background-color: #0b8176;
-}
-
-.mb-light-purple {
-    background-color: #93738c;
-}
-
-
-
-/*Percentage Classes */
-
-.eighty-five-percent {
-    height: inherit;
-    width: 85%;
-}
-
-.eighty-percent {
-    height: inherit;
-    width: 80%;
-}
-
-.fifty-percent {
-    height: inherit;
-    width: 50%;
-}
 
 input:focus,
 select:focus,
@@ -275,28 +235,97 @@ section:nth-child(odd) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .skill-contaner{
-    height: 40px;
-    width: 180px;
     background-color: #8ba3d8;
-    margin: 25px;
     border-radius: 50px;
 }
-.ten-percentage{
-    height: inherit;
-    width: 50%;
-    background-color: #3c5894;
-    border-radius: 50px 0px 0px 50px;
+.skill-Variable-Property{
+    height: 40px;
+    width: 160px;
+    margin: 25px;
 }
 .skill-name{
-    padding-top: 7.5px;
-    font-size: 1.2rem;
+    padding-top: 10px;
+    font-size: 1rem;
     color: white;
     margin-left: 25px;
 }
 
+@media screen and (max-width: 768px) {
+    .skill-Variable-Property{
+        height: 30px;
+        width: 120px;
+        margin: 15px;
+    }
+    .skill-name{
+        padding-top: 6px;
+        font-size: 1rem;
+        color: white;
+        margin-left: 25px;
+    }
+    #skill-parent{
+        width: 100%;
+    }
+}
+
+.container-border{
+    border-radius: 50px 0px 0px 50px;
+}
+
+/* setting background-color */
+
+.m-blue {
+    color: #2857a4;
+}
+
+.mb-blue {
+    background-color: #2857a4;
+}
+
+.mb-orange {
+    background-color: #8b2a0d;
+}
+
+.mb-teal {
+    background-color: #0b8176;
+}
+
+.mb-light-purple {
+    background-color: #93738c;
+}
+
+.mb-saddle-brown {
+    background-color:saddlebrown;
+}
+
+
+/*Percentage Classes */
+.eighty-percent{
+    height: inherit;
+    width: 80%;
+}
+
+.seventy-percent {
+    height: inherit;
+    width: 70%;
+}
+
+.eighty-percent {
+    height: inherit;
+    width: 80%;
+}
+
+.fifty-percent {
+    height: inherit;
+    width: 50%;
+}
+.ten-percent {
+    height: inherit;
+    width: 10%;
+}
 /* portfolio */
 #portfolio-parent{
     height: auto;
