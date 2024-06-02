@@ -235,7 +235,6 @@ section:nth-child(odd) {
 /* about */
 #about{
     height: auto;
-    width: 100%;
     margin-bottom:20px;
     position: relative;
 }
@@ -255,9 +254,10 @@ section:nth-child(odd) {
 }
 
 #about p{
-    /* margin: 0% 10%; */
-    padding: 0% 10%;
+    box-sizing: border-box;
+    padding: 0 20px;
     color:#5d94ca;
+    text-align:justify;
 }
 
 /* skills */
