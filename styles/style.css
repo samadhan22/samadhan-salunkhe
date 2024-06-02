@@ -292,15 +292,17 @@ section:nth-child(odd) {
 .mb-teal {
     background-color: #0b8176;
 }
-
+ 
 .mb-light-purple {
-    background-color: #93738c;
+    background-color: #a52389;
 }
 
 .mb-saddle-brown {
     background-color:saddlebrown;
 }
-
+.mb-violet {
+    background-color:rgb(148, 34, 148);
+}
 
 /*Percentage Classes */
 .eighty-percent{
