@@ -92,7 +92,7 @@ button:focus {
 /* body header */
 #body-header{
     padding-top:1.5rem ;
-    height: 65vh;
+    height: 50vh;
     background-image: url(../images/macbook_mouse.jpg);
     background-size: cover;
     background-position: center;
