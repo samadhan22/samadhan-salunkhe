@@ -156,8 +156,7 @@ button:focus {
     list-style: none;
     padding: 0px;
     margin: 0px;
-    margin-bottom: 5rem;
-
+    margin-bottom: 3rem;
 }
 .horizontal-list li{
     display: inline-block;
