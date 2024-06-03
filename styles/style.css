@@ -238,11 +238,15 @@ section:nth-child(odd) {
 .skill-contaner{
     background-color: #8ba3d8;
     border-radius: 50px;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
 }
 .skill-Variable-Property{
     height: 40px;
     width: 160px;
     margin: 25px;
+}
+.skill-contaner > div{
+    box-shadow: 1px 1px 2px 0px #989882;
 }
 .skill-name{
     padding-top: 10px;
@@ -283,7 +287,7 @@ section:nth-child(odd) {
 }
 
 .mb-orange {
-    background-color: #8b2a0d;
+    background-color: #ec4d1c;
 }
 
 .mb-teal {
@@ -291,7 +295,7 @@ section:nth-child(odd) {
 }
  
 .mb-light-purple {
-    background-color: #a52389;
+    background-color: #93738c;
 }
 
 .mb-saddle-brown {
