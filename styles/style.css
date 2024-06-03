@@ -437,7 +437,6 @@ footer section .section-heading span{
     transform: rotate(90deg);
     z-index: 2;
 }
-
 .experience-childs:nth-child(2n+1)::after{
     background-color: lightgrey;
     content: '';
