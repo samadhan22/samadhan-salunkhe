@@ -55,7 +55,7 @@ button:focus {
     height: 50vh;
     background-image: url(../images/macbook_mouse.jpg);
     background-size: cover;
-    background-position: center;
+    background-position:top;
     opacity: 0.8;
     background-attachment: fixed;
 }
@@ -146,12 +146,9 @@ button:focus {
     .bars {
         display: block;
     }
-    
-    
     .navigation-bar {
         display: none;
     }
-  
 }
 
 /* my name  */
