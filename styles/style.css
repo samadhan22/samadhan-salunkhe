@@ -410,24 +410,21 @@ footer section .section-heading span{
 #experience-container{
     position: relative;
     display: inline-block;
-    border: 2px solid black;
-    width: 75%;
+    width: 80%;
     height: auto;
 }
 .experience-childs{
     position:relative;
     margin:5px;
-    width: 40%;
-    left:5%;
+    width: 45%;
     min-height: 150px;
-    border: 2px solid black;
 }
 .experience-childs:nth-child(2n){
     left:53%;
 }
 .traveller-line{
     position:absolute;
-    top:10%;
+    top:5%;
     left:50%;
     width: 0px;
     height: 85%;
@@ -448,7 +445,7 @@ footer section .section-heading span{
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
-    right: -12%;
+    right: -11%;
     z-index: 1;   
 }
 .experience-childs:nth-child(2n)::after{
@@ -459,7 +456,7 @@ footer section .section-heading span{
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
-    right: 108%;
+    right: 107%;
     z-index: 1;   
 }
 .experience-childs div{
@@ -470,10 +467,15 @@ footer section .section-heading span{
 }
 .experience-childs div ul{
     margin: 0px;
+    list-style: none;
 }
 
 #exp-heading{
     display: block;
+}
+#exp-heading img{
+    height: auto;
+    width: 75px;
 }
 
 @media screen and (max-width:600px){
@@ -481,17 +483,19 @@ footer section .section-heading span{
         width:100%;
     }
     .traveller-line{
-        left: 8%;
+        left: 7.5%;
     }
     .experience-childs:nth-child(n){
         width: inherit;
-        left: 15%;
+        left: 16%;
+        margin-bottom: 25px;
     }
-
     .experience-childs:after{
         left: -13% !important ;
     }
-
+    #experience-container{
+        width: 85%;
+    }
 }
 
 
