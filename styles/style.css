@@ -497,10 +497,10 @@ footer section .section-heading span{
         width: 85%;
     }
 }
-
-
-
-@media only screen and (max-width: 572px) {
-    
- 
+.portfolio-container img{
+    border: solid 2px #8ba3d8;
+    transition: box-shadow 0.3s ease;
+}
+.portfolio-container img:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a shadow around the image */
 }
