@@ -498,9 +498,10 @@ footer section .section-heading span{
     }
 }
 .portfolio-container img{
-    border: solid 2px #8ba3d8;
-    transition: box-shadow 0.3s ease;
+    border: solid 1px #8ba3d8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: filter 0.3s ease;
 }
 .portfolio-container img:hover{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a shadow around the image */
+    border: 2px solid #3498db; /* Border color on hover */
 }
