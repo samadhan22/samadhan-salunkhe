@@ -27,7 +27,7 @@ label #btn{
     padding: 0.1rem 0.5rem;
     box-sizing: border-box;
     background-color: rgb(2, 8, 2);
-    border-radius: 0.5rem;
+    border-radius: 0.1rem;
     transition: all 0.5s ease;
 }
 label #cancel{
@@ -38,7 +38,7 @@ label #cancel{
     padding: 0.25rem 0.5rem;
     box-sizing: border-box;
     color: #0a5275;
-    border-radius: 0.5rem;
+    border-radius: 0.1rem;
     transition: all 0.5s ease;
 }
 
@@ -46,16 +46,18 @@ label #cancel{
     position: fixed;
     left: -250px;
     width: 15rem;
-    height: 100%;
+    height: 100vh;
     background: #042331;
     z-index: 11;
     transition: all 0.5s ease;
 }
 .sidebar header{
-    font-size: 1.2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
     color: white;
+    text-wrap:wrap;
     text-align: center;
-    line-height: 6rem;
     background: #063146;
     user-select: none;
 }
@@ -612,8 +614,10 @@ footer section .section-heading span {
     height: auto;
     width: 75px;
 }
-
-@media screen and (max-width:600px) {
+aside{
+    display: none;
+}
+@media screen and (max-width:768px) {
     #about p {
         width: 100%;
     }
@@ -649,5 +653,8 @@ footer section .section-heading span {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+    }
+    aside{
+        display: contents;
     }
 }
