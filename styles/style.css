@@ -91,6 +91,7 @@ label #cancel{
 #check:checked ~ label #btn{
     left: 12rem;
     opacity: 0;
+    pointer-events: none;
 }
 #check:checked ~ label #cancel{
     left: 12rem;
@@ -152,58 +153,6 @@ button:focus {
     opacity: 0.8;
     background-attachment: fixed;
 }
-
-/* top navigation */
-
-.bars {
-    color: white;
-    margin: 0;
-    margin-left: 5%;
-    display: none;
-}
-
-.bars i {
-    font-size: 2rem;
-}
-
-.dropdown-list {
-    margin: 0;
-    display: none;
-    background-color: #828470;
-    box-shadow: 0px 4px 8px 1px #535547;
-}
-
-.dropdown-list ul {
-    margin: 0.2rem 0.2rem;
-    text-align: left;
-    padding: 0px 0.8rem;
-}
-
-.dropdown-menu:hover .dropdown-list {
-    display: block;
-    position: absolute;
-    left: 3%;
-}
-
-.dropdown-list li {
-    margin: 0.4rem 0px;
-}
-
-.no-list-style {
-    list-style: none;
-}
-
-.no-list-style li {
-    font-weight: 100;
-    font-size: 0.9rem;
-}
-
-.no-list-style li a {
-    list-style: none;
-    color: white;
-    text-decoration: none;
-}
-
 
 .horizontal-list {
     list-style: none;
@@ -471,7 +420,7 @@ section:nth-child(odd) {
 footer {
     margin: auto;
     height: auto;
-    width: 100%;
+    width: auto;
     background: linear-gradient(to right, #2d4f97, #403066);
     /* Adjust colors as needed */
 }
@@ -649,11 +598,35 @@ aside{
     }
 
     #contact-container {
-        width: 100%;
+        width: auto;
         display: flex;
         flex-wrap: wrap;
     }
-    aside{
-        display: contents;
+    .sidebar{
+        display: block;
     }
+}
+footer{
+    margin-left: 0;
+    transition: all 0.5s ease;
+}
+
+#main-content{
+    margin-left: 0;
+    transition: all 0.5s ease;
+}
+
+#body-header{
+    margin-left: 0;
+    transition: all 0.5s ease;
+}
+
+#check:checked ~ #body-header{
+    margin-left: 15rem;
+}
+#check:checked ~ #main-content{
+    margin-left: 15rem;
+}
+#check:checked ~ footer{
+    margin-left: 15rem;
 }
