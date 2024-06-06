@@ -34,10 +34,9 @@ label #cancel{
     left: -12rem;
     top: 10px;
     font-size: 1rem;
-    color: white;
+    color: rgb(159, 186, 190);
     padding: 0.25rem 0.5rem;
     box-sizing: border-box;
-    color: #0a5275;
     border-radius: 0.1rem;
     transition: all 0.5s ease;
 }
