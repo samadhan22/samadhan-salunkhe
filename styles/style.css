@@ -562,7 +562,7 @@ footer section .section-heading span {
     height: auto;
     width: 75px;
 }
-.sidebar,#btn,#cancel{
+aside{
     display: none;
 }
 @media screen and (max-width:768px) {
@@ -602,32 +602,7 @@ footer section .section-heading span {
         display: flex;
         flex-wrap: wrap;
     }
-    .sidebar,#btn,#cancel{
-        display:initial;
-        position: fixed;
+    aside{
+        display: contents;
     }
-}
-footer{
-    margin-left: 0;
-    transition: all 0.5s ease;
-}
-
-#main-content{
-    margin-left: 0;
-    transition: all 0.5s ease;
-}
-
-#body-header{
-    margin-left: 0;
-    transition: all 0.5s ease;
-}
-
-#check:checked ~ #body-header{
-    margin-left: 15rem;
-}
-#check:checked ~ #main-content{
-    margin-left: 15rem;
-}
-#check:checked ~ footer{
-    margin-left: 15rem;
 }
