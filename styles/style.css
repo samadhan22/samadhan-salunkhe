@@ -27,7 +27,7 @@ label #btn{
     padding: 0.1rem 0.5rem;
     box-sizing: border-box;
     background-color: rgb(2, 8, 2);
-    border-radius: 3px;
+    border-radius: 0.5rem;
     transition: all 0.5s ease;
 }
 label #cancel{
@@ -38,7 +38,7 @@ label #cancel{
     padding: 0.25rem 0.5rem;
     box-sizing: border-box;
     color: #0a5275;
-    border-radius: 3px;
+    border-radius: 0.5rem;
     transition: all 0.5s ease;
 }
 
@@ -52,7 +52,7 @@ label #cancel{
     transition: all 0.5s ease;
 }
 .sidebar header{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
     text-align: center;
     line-height: 6rem;
@@ -563,7 +563,7 @@ footer section .section-heading span {
 
 .traveller {
     position: sticky;
-    top: 20%;
+    top: 30%;
     transform: rotate(90deg);
     z-index: 2;
 }
