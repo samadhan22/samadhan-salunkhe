@@ -562,7 +562,7 @@ footer section .section-heading span {
     height: auto;
     width: 75px;
 }
-aside{
+.sidebar,#btn,#cancel{
     display: none;
 }
 @media screen and (max-width:768px) {
@@ -602,8 +602,8 @@ aside{
         display: flex;
         flex-wrap: wrap;
     }
-    .sidebar{
-        display: block;
+    .sidebar,#btn,#cancel{
+        display:initial;
     }
 }
 footer{
