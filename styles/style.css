@@ -420,7 +420,7 @@ section:nth-child(odd) {
 footer {
     margin: auto;
     height: auto;
-    width: auto;
+    width: 100%;
     background: linear-gradient(to right, #2d4f97, #403066);
     /* Adjust colors as needed */
 }
@@ -604,6 +604,7 @@ footer section .section-heading span {
     }
     .sidebar,#btn,#cancel{
         display:initial;
+        position: fixed;
     }
 }
 footer{
