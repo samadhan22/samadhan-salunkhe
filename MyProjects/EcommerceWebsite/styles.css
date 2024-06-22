@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343334;
+    padding-right:0.5rem ;
+}
+#logo{
+    padding: 0.8rem;
+}
+#nav_links ul {
+    list-style: none;
+}
+#nav_links ul li{
+    display: inline-block;
+    padding-left: 0.5rem;
+}
+#nav_links ul li a{
+    text-decoration: none;
+    color: white;
+}
+#hero{
+    padding-top: 2rem;
+    background-color: #ee6d53;
+    text-align: center;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+#hero button{
+    padding: 0.5rem 1rem;
+    background-color: #343334;
+    color: white;
+    border-width: 0;
+    margin-bottom: 2rem;
+}
+#hero button:hover{
+    background-color: #3f628c;
+}
+#hero h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+#hero p{
+    font-size: 1rem;
+}
