@@ -50,3 +50,49 @@ body{
 #hero p{
     font-size: 1rem;
 }
+#category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.category_image img{
+    width: 10rem;
+    height: auto;
+    border-radius: 0.3rem;
+}
+.category_image{
+    padding: 1rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.category_image div {
+    text-align: center;
+} 
+#category-section h3{
+    padding: 0rem 1rem;
+}
+#category-section{
+    background-color: #dddddd;
+}
+
+
+
+
+#testimony{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.testimony-card{
+    padding: 1rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+#testimony-section{
+    background-color: #dddddd;
+}
