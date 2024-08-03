@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.current-time {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.set-alarm {
+    margin-bottom: 20px;
+}
+
+#set-alarm-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#set-alarm-btn:hover {
+    background-color: #45a049;
+}
+
+.alarms-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.alarms-list h2 {
+    font-size: 1.5em;
+}
+
+.alarms-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.alarms-list li {
+    padding: 10px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:  5px;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
