@@ -1,0 +1,70 @@
+/* Custom styles for the meal app */
+
+/* Body and Container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Buttons */
+.btn-primary {
+    margin-right: 10px;
+}
+
+.btn-danger {
+    margin-left: 10px;
+}
+
+/* Search Box */
+.search-box {
+    margin-bottom: 30px;
+}
+
+#search-input {
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+/* Meal Details Page */
+#meal-details .card {
+    margin-top: 20px;
+}
+
+#meal-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+#meal-details li {
+    background-color: #e9ecef;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}

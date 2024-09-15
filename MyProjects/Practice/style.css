@@ -1,0 +1,16 @@
+body{
+  background-color: grey;
+  padding: 10%;
+}
+
+#container{
+  background-color: black;
+  color: yellow;
+  text-align: center;
+}
+#instruction{
+  color: aliceblue;
+}
+#timer{
+  font-size: xx-large;
+}

@@ -20,7 +20,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.current-time {
+#current-time {
     font-size: 2em;
     margin-bottom: 20px;
 }
@@ -42,21 +42,21 @@ h1 {
     background-color: #45a049;
 }
 
-.alarms-list {
+#alarms-list {
     margin-top: 20px;
     text-align: left;
 }
 
-.alarms-list h2 {
+#alarms-list h2 {
     font-size: 1.5em;
 }
 
-.alarms-list ul {
+#alarms-list ul {
     list-style: none;
     padding: 0;
 }
 
-.alarms-list li {
+#alarms-list li {
     padding: 10px;
     background-color: #ddd;
     margin-bottom: 10px;
