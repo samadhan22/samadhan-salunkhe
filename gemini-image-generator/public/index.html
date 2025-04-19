@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generator with Gemini API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fc;
+            padding: 20px;
+            margin: 0;
+            text-align: center;
+        }
+        h1 {
+            color: #4a90e2;
+        }
+        form {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            display: inline-block;
+            width: 100%;
+            max-width: 600px;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #4a90e2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #357ab7;
+        }
+        #imageContainer {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #imageContainer img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        #loading {
+            display: none;
+            font-size: 18px;
+            color: #f44336;
+        }
+    </style>
+</head>
+<body>
+    <h1>Generate 4 Full-Size Images with Gemini AI</h1>
+    
+    <form id="generateForm">
+        <label for="prompt">Enter a prompt for the image:</label><br><br>
+        <textarea id="prompt" name="prompt" rows="4" cols="50" placeholder="Describe the image you want to generate..."></textarea><br><br>
+        
+        <button type="submit">Generate 4 Images</button>
+    </form>
+
+    <div id="loading">Generating images, please wait...</div>
+    <div id="imageContainer"></div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
